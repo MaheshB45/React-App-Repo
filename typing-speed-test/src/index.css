@@ -36,6 +36,7 @@ code {
 }
 .text-Logo{
   padding-bottom: 0.8rem;
+  cursor: pointer;
 }
 
 .left{
@@ -46,9 +47,11 @@ code {
 }
 .keyIcon{
   padding: 1rem;
+  cursor: pointer;
 }
 .right{
   float: right;
+  cursor: pointer;
 }
 /* ------------------- */
 
@@ -66,6 +69,7 @@ code {
 .leftSec, .rightSec p{
   font-size: 20px;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .leftSec{
@@ -163,6 +167,7 @@ code {
   height: 45px;
   width: 45px;
   padding: 0.3rem;
+  cursor: pointer;
 }
 .rightDdown{
   float: right;
