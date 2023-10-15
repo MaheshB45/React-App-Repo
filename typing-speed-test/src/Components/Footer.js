@@ -12,10 +12,10 @@ const Footer = () => {
     <div className="footer">
     
         <div className="leftLink">
-            <img src={github} alt="git" />
-            <img src={linkedin} alt="linkedin" />
-            <img src={email} alt="email" />
-            <img src={instagram} alt="instagram" />
+        <a href="https://github.com/MaheshB45"><img src={github} alt="git" /></a>
+        <a href="https://www.linkedin.com/in/mahesh-bahir-931b8b1b0/"><img src={linkedin} alt="linkedin" /></a>
+        <a href="mailto:maheshbahir45@gmail.com"><img src={email} alt="email" /></a>
+        <a href="-"><img src={instagram} alt="instagram" /></a>
         </div>
 
         <div className="rightDdown">
