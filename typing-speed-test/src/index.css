@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  height: 100vh;
+  width: 100%;
+  background-color: #cfc;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Header */
+.header{
+  height: 10vh;
+  width: 95%;
+  margin: auto;
+  padding-top: 4rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header img{
+  height: 35px;
+}
+.text-Logo{
+  padding-bottom: 0.8rem;
+}
+
+.left{
+  float: left;
+  display: flex;
+  margin-right: 22rem;
+  align-items: center;
+}
+.keyIcon{
+  padding: 1rem;
+}
+.right{
+  float: right;
+}
+/* ------------------- */
+
+/* Seconds */
+.seconds{
+  height: 10vh;
+  width: 95%;
+  margin: auto;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.leftSec, .rightSec p{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.leftSec{
+  float: left;
+  margin-right: 22rem;
+}
+
+.rightSec{
+  float: right;
+  margin-left: 6rem;
+}
+
+/* TextContent */
+
+.textContent{
+  height: 35vh;
+  width: 75%;
+  margin: auto;
+  padding: 0 1rem;
+  text-align: justify;
+}
+ 
+.textContent p{
+  font-size: 22px;
+  letter-spacing: 0.2mm;
+  font-weight: 500;
+  opacity: 0.6;
+}
+
+/* Buttons */
+
+.buttons{
+  height: 25vh;
+  width: 60%;
+  margin: auto;
+}
+.refreshBtn{
+  border: none;
+  background-color: #cfc;
+  cursor: pointer;
+}
+.btnGr, .btnGr1, .btnGr2{
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnGr1 span{
+  font-size: 18px;
+  font-weight: 500;
+}
+.btnGr2 span{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.btnGr1 button{
+  height: 2rem;
+  width: 3rem;
+  margin:0 0.5rem;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  color: #cfc;
+  background-color: #535353;
+  cursor: pointer;
+}
+
+.btnGr2 button{
+  height: 2rem;
+  width: 3rem;
+  margin:0 0.5rem;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  color: #cfc;
+  background-color: #535353;
+  cursor: pointer;
+}
+
+/* Footer */
+
+.footer{
+  height: 10vh;
+  width: 75%;
+  margin: auto;
+}
+.leftLink{
+ margin-left: 1rem;
+ float: left;
+}
+.leftLink img{
+  height: 45px;
+  width: 45px;
+  padding: 0.3rem;
+}
+.rightDdown{
+  float: right;
+}
+.rightDdown button{
+  height: 2.5rem;
+  width: 11rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  color: #cfc;
+  background-color: #8a8989;
+  cursor: pointer;
+}
+.rightDdown img{
+  height: 35px;
+  padding: 0.3rem;
+}
