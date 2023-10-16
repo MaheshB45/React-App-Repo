@@ -1,8 +1,9 @@
 import React from "react";
 import "../index.css";
+
+//adding icons
 import keyIcon from "../Assets/keyIcon.svg";
 import user from "../Assets/user.svg";
-
 
 const Header = () => {
   return (

@@ -1,34 +1,31 @@
-* {
+ * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
-
-body{
-  height: 100vh;
-  width: 100%;
-  background-color: #cfc;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
+body{
+  background-color: #cfc;
+}
+
+/* App Js */
+.app{
+    margin-top: 50px;
+    width: 80vw;
+    margin-inline: auto;
+  }
+  
 /* Header */
 .header{
-  height: 10vh;
-  width: 95%;
-  margin: auto;
-  padding-top: 4rem;
-  margin-bottom: 1rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .header img{
@@ -40,9 +37,7 @@ code {
 }
 
 .left{
-  float: left;
   display: flex;
-  margin-right: 22rem;
   align-items: center;
 }
 .keyIcon{
@@ -50,66 +45,48 @@ code {
   cursor: pointer;
 }
 .right{
-  float: right;
   cursor: pointer;
 }
-/* ------------------- */
 
-/* Seconds */
-.seconds{
-  height: 10vh;
-  width: 95%;
-  margin: auto;
-  padding-top: 1rem;
-  margin-bottom: 1rem;
+/* TypingBox - row-1 */
+.row-1{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
-.leftSec, .rightSec p{
+
+.leftTime, .rightTime button{
   font-size: 20px;
   font-weight: 500;
+}
+.rightTime button{
+  border: none;
+  background-color: #cfc;
+  padding-left: 0.5rem;
   cursor: pointer;
 }
 
-.leftSec{
-  float: left;
-  margin-right: 22rem;
-}
-
-.rightSec{
-  float: right;
-  margin-left: 6rem;
-}
-
-/* TextContent */
-
-.textContent{
-  height: 35vh;
-  width: 75%;
-  margin: auto;
-  padding: 0 1rem;
-  text-align: justify;
-}
- 
-.textContent p{
+.text-box{
+  height: auto;
+  padding-top: 0.5rem;
   font-size: 22px;
   letter-spacing: 0.2mm;
   font-weight: 500;
   opacity: 0.6;
 }
 
-/* Buttons */
+/* Footer - Buttons */
 
 .buttons{
-  height: 25vh;
-  width: 60%;
-  margin: auto;
+  margin-top: 1rem;
 }
 .refreshBtn{
   border: none;
   background-color: #cfc;
   cursor: pointer;
+}
+.refreshBtn img{
+  height: 2rem;
 }
 .btnGr, .btnGr1, .btnGr2{
   padding: 0.5rem;
@@ -152,20 +129,14 @@ code {
   cursor: pointer;
 }
 
-/* Footer */
-
-.footer{
-  height: 10vh;
-  width: 75%;
-  margin: auto;
+.links{
+  margin-top: 1rem;
 }
 .leftLink{
- margin-left: 1rem;
  float: left;
 }
 .leftLink img{
-  height: 45px;
-  width: 45px;
+  height: 2.8rem;
   padding: 0.3rem;
   cursor: pointer;
 }
@@ -174,17 +145,18 @@ code {
 }
 .rightDdown button{
   height: 2.5rem;
-  width: 11rem;
+  width: auto;
+  padding: 0 0.8rem;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
-  border: none;
-  border-radius: 10px;
   color: #cfc;
   background-color: #8a8989;
+  border: none;
+  border-radius: 10px;
   cursor: pointer;
 }
 .rightDdown img{

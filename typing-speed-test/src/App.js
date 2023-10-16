@@ -1,18 +1,15 @@
 import React from "react";
 import Header from "./Components/Header";
-import Seconds from "./Components/Seconds";
-import TextContent from "./Components/TextContent";
-import Buttons from "./Components/Buttons";
+import TypingBox from "./Components/TypingBox";
 import Footer from "./Components/Footer";
+import "./index.css";
 
 
 const App = () => {
   return (
-    <div>
+    <div className="app">
       <Header />
-      <Seconds />
-      <TextContent />
-      <Buttons />
+      <TypingBox />
       <Footer />
     </div>
   );
