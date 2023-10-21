@@ -45,7 +45,7 @@ const Footer = () => {
         <a href="mailto:maheshbahir45@gmail.com">
           <img src={email} alt="email" />
         </a>
-        <a href="-">
+        <a href="https://www.instagram.com/mahesh_b_45/">
           <img src={instagram} alt="instagram" />
         </a>
       </div>
