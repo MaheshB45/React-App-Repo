@@ -14,13 +14,13 @@ const greyTheme = {
     typeBoxText: 'grey',
     graphColor : 'grey'
 }
-// const purpleTheme = {
-//     label : "Coloured-lightgrey",
-//     background : '	#484848',
-//     textColor : '#FF9999',
-//     typeBoxText : '#FF9999',
-//     graphColor : 'grey'
-// }
+const purpleTheme = {
+    label : "Coloured-lightgrey",
+    background : '	#484848',
+    textColor : '#FF9999',
+    typeBoxText : '#FF9999',
+    graphColor : 'grey'
+}
 const Pink = {
     label : "Coloured-Pink",
     background :"black",
@@ -64,7 +64,7 @@ const lightTheme = {
 export const themeOptions = [
     {label:'Darken-black',value:darkTheme},
     {label:'Coloured-Grey',value:greyTheme},
-  //  {label:'Coloured-Purple',value:purpleTheme},
+    {label:'Coloured-Purple',value:purpleTheme},
     {label:'Coloured-Pink',value:Pink},
     {label:'Coloured-Green',value:Green},
     {label:'Coloured-Blue',value:Blue},

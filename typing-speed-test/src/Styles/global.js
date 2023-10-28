@@ -216,6 +216,9 @@ body{
     bottom : 3%;
     left : 12%;
 }
+.links a{
+    color : blue;
+}
 
 .stats-box{
     display : flex;
